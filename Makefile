@@ -2,7 +2,7 @@ install:
 	poetry install
 
 page-loader:
-	poetry run page-loader
+	poetry run page-loader $(args)
 
 build:
 	poetry build
